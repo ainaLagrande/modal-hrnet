@@ -1,6 +1,9 @@
 {
-  "name": "simple-component-library",
+  "name": "ainahrnet",
   "version": "0.1.0",
+  "description": "Made with create-react-library",
+  "author": "AinaLAGRANDE",
+  "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.js",  
   "files": [ "dist", "README.md" ],  
@@ -9,6 +12,7 @@
     "type": "git",    "url": "ainaLagrande/modal-hrnet"  
   },
   "scripts": {
+    "start": "node dist/index.js",
     "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
